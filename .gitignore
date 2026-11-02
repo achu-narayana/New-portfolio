@@ -27,3 +27,5 @@ dist-ssr
 backup/
 .env
 ._*
+# local backup of the original character model
+model-backup/

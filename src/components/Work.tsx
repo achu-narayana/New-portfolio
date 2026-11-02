@@ -3,34 +3,39 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+// TODO: add the live demo URLs from your resume to each `link`.
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "Multi-Agent Job Finder",
+    category: "Agentic Job Search & Outreach",
+    tools:
+      "Scraped 4,523 companies & 19,159 referrers, resume-to-role matching, cron scraping agents, LLM fallback orchestration, 500 emails/day outreach, reply tracking, Vercel",
+    image: "/images/project-jobfinder.svg",
+    link: "",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "CryNetV2",
+    category: "Infant State Recognition System",
+    tools:
+      "Deep learning audio classifier for 8 states, 2,100+ recordings, Focal Loss for 36:1 imbalance, Macro F1 0.26 → 0.382, GitHub Actions CI/CD, AWS",
+    image: "/images/project-crynet.svg",
+    link: "",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "AI Research Paper Assistant",
+    category: "Full-Stack RAG Workspace",
+    tools:
+      "PDF extraction with OCR fallback, chunking, embeddings, vector retrieval, paper summarization & comparison, JWT auth",
+    image: "/images/project-research.svg",
+    link: "",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "RFID Attendance System",
+    category: "Automated Attendance Platform",
+    tools:
+      "500+ records/day, real-time sync, RFID-authenticated admin dashboard, 90%+ less manual effort",
+    image: "/images/project-rfid.svg",
+    link: "",
   },
 ];
 
@@ -116,7 +121,7 @@ const Work = () => {
                       <WorkImage
                         image={project.image}
                         alt={project.title}
-                        link={project.link}
+                        link={project.link || undefined}
                       />
                     </div>
                   </div>

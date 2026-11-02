@@ -15,58 +15,48 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>AI Product Engineer Intern</h4>
+                <h5>eWealth Tech LLC · Remote (US)</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Since July 2026. Architected an agentic lead-generation pipeline
+              (FastAPI, LangGraph, Crawl4AI, Playwright) that scraped and enriched
+              30,000–40,000+ leads, and a GTM intelligence platform with
+              multi-agent research, lead scoring, deduplication, vector search and
+              CRM pipelines powering 3,000+ active leads. Built production
+              outreach agents for email generation, sequencing, follow-ups and
+              reply tracking, taking the platform from research to deployment with
+              the founder.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>AI / ML Projects</h4>
+                <h5>Independent builder</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2025–26</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Shipped a multi-agent job finder, the CryNetV2 infant cry
+              recognition system (Macro F1 0.26 → 0.382, deployed on AWS), a RAG
+              research paper assistant and an RFID attendance platform handling
+              500+ records/day.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>B.Tech CSE (AI &amp; ML)</h4>
+                <h5>Anurag University, Hyderabad</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2023–27</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              CGPA 9.2/10. Coursework in Data Structures and Algorithms, Machine
+              Learning, Deep Learning, DBMS, Computer Networks and DevOps.
             </p>
           </div>
         </div>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/><stop offset="1" stop-color="#0f2a33"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <line x1="900" y1="120" x2="1040" y2="210" stroke="#14b8a6" stroke-width="2" opacity="0.35"/><line x1="1040" y1="210" x2="980" y2="340" stroke="#14b8a6" stroke-width="2" opacity="0.35"/><line x1="980" y1="340" x2="1110" y2="400" stroke="#14b8a6" stroke-width="2" opacity="0.35"/><line x1="860" y1="260" x2="980" y2="340" stroke="#14b8a6" stroke-width="2" opacity="0.35"/><line x1="900" y1="120" x2="860" y2="260" stroke="#14b8a6" stroke-width="2" opacity="0.35"/><circle cx="900" cy="120" r="7" fill="#22d3ee" opacity="0.6"/><circle cx="1040" cy="210" r="7" fill="#22d3ee" opacity="0.6"/><circle cx="980" cy="340" r="7" fill="#22d3ee" opacity="0.6"/><circle cx="1110" cy="400" r="7" fill="#22d3ee" opacity="0.6"/><circle cx="860" cy="260" r="7" fill="#22d3ee" opacity="0.6"/>
+  <text x="80" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">CryNetV2</text>
+  <rect x="80" y="400" width="120" height="6" fill="#14b8a6"/>
+  <rect x="80" y="560" width="310" height="80" rx="40" fill="none" stroke="#14b8a6" stroke-width="2"/>
+  <text x="235" y="611" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#e2e8f0" text-anchor="middle">8 infant states</text><rect x="420" y="560" width="310" height="80" rx="40" fill="none" stroke="#14b8a6" stroke-width="2"/>
+  <text x="575" y="611" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#e2e8f0" text-anchor="middle">2,100+ recordings</text><rect x="760" y="560" width="310" height="80" rx="40" fill="none" stroke="#14b8a6" stroke-width="2"/>
+  <text x="915" y="611" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#e2e8f0" text-anchor="middle">Macro F1 0.382</text>
+</svg>
